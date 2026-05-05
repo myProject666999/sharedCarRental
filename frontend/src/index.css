@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  margin: 24px;
+  min-height: 280px;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 100px auto;
+}
+
+.register-form {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.car-card {
+  transition: all 0.3s;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.admin-layout .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  line-height: 32px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.admin-layout .ant-layout-sider {
+  background: #001529;
+}
+
+.admin-layout .ant-menu {
+  background: #001529;
+}
+
+.table-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.image-upload .ant-upload-list-item {
+  width: 200px;
+  height: 150px;
+}
+
+.rich-editor {
+  min-height: 300px;
+}
+
+.home-header {
+  background: #001529;
+  padding: 0 50px;
+}
+
+.home-header .logo {
+  float: left;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 64px;
+}
+
+.home-header .ant-menu {
+  line-height: 64px;
+  border-bottom: none;
+}
+
+.home-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 100px 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.home-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.home-hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.section-title {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  color: #666;
+}
+
+.cars-section {
+  padding: 20px 50px;
+}
+
+.announcements-section {
+  padding: 20px 50px;
+  background: #f5f5f5;
+}
+
+.about-section {
+  padding: 50px;
+  background: #fff;
+}
+
+.car-detail-card {
+  padding: 24px;
+}
+
+.car-detail-info {
+  margin-top: 20px;
+}
+
+.order-form {
+  margin-top: 20px;
+}
